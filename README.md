@@ -1,4 +1,20 @@
-# Trouble_Shoot-
+# CSS
+
+## 憎っくきIE11
+Flexbox Columnを指定するとなんだかおかしいよ
+```
+flex-direction: column;
+子要素に
+flex: 0 1 auto;
+width: 100%;
+もしくは
+flex: 0 0 auto;
+}
+```
+<br>br>
+
+
+# Other
 
 ### Chromeでaタグやcursor: pointerを設定しても指マークにならない問題。
 Photoshop を立ち上げていると、ブラウザのカーソルがデフォルトから変わらないバグがあるらしいことがわかりました。なんとw
